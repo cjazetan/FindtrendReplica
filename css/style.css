@@ -1,0 +1,628 @@
+/*MOBILE FIRST*/
+
+@font-face {
+    font-family: EffraBold;
+    src: url(/fonts/Effra_Trial_Bd.ttf);
+}
+
+@font-face {
+    font-family: EffraRegular;
+    src: url(/fonts/Effra_Trial_Rg.ttf);
+}
+@font-face {
+    font-family: GoodDogNew;
+    src: url(/fonts/GoodDog_New_Reg.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.homepage{
+    background-color: black;
+    height: 100vh;
+    background-image: url(/images/ornamentbrokenline.svg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
+.brokenline{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3.75rem;
+    padding-left: 38px;
+    padding-right: 38px;
+    height: 100vh;
+    grid-area: overlap;
+}
+
+header{
+    display: flex;  
+    justify-content: space-between;
+    position: relative;    
+}
+
+
+.headerlogo{
+    position: relative;
+    margin: 12.71px 0 0 18px;
+    
+}
+
+.headerlogo p{
+    display: none;
+}
+
+.headerlogo img{
+    height: 60%; 
+}
+
+.headerlinks{
+    display: none;
+}
+
+.registration{
+    display: none;
+}
+
+.hamburger{
+    margin: 20.65px 21px 0 0;
+}
+
+.hamburger > div{
+    width: 18px;
+    height: 1.06px;
+    background-color: white;
+    margin: 3.18px 0;
+}
+
+.main-content{
+    margin: 110.11px 27px 16px 28px;
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: EffraBold;
+    line-height: 112%;
+
+}
+
+.smalltext{
+    margin: 16px 45px 0px 45px;
+    text-align: center;
+    font-family: EffraRegular;
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+    color: #8B8B8B;
+}
+
+.greenbutton{
+    margin: 32px 0 60.44px 0;
+    text-align: center;
+}
+
+.whiteresearch{
+    display: none;
+}
+
+#gbutton{
+    
+    border: none;
+    border-radius: 40px;
+    padding: 12px 24px;
+    background-color: #A8FF35;
+    font-family: EffraBold;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color:black;
+    text-decoration: none;
+}
+
+#gbutton:hover{
+    background-color:#4e8604;
+    color: white;
+}
+
+.tabs{
+    position: relative;
+    width: 18.3rem;
+    margin: 0 auto;
+}
+
+.imgone{
+    position: relative;
+    z-index: 4;
+}
+
+.imgtwo{
+    position: relative;
+    transform: translateY(-40px);
+    z-index: 3;
+
+}
+
+.imgthree{
+    position: relative;
+    transform: translateY(-80px);
+    z-index: 2;
+    
+}
+
+.imgfour{
+    position: relative;
+    transform: translateY(-120px);
+    z-index: 1;
+}
+
+.limegreen{
+    background-color: #a8ff35;
+    padding: 5rem 0;
+}
+
+.limebold p{
+    text-align: center;
+    font-family: EffraBold;
+    font-size: 2.25rem;
+    line-height: 2.52rem;
+    margin-bottom: 2rem;
+}
+
+
+.onetabarrow{
+    margin: 0 1.25rem 0 16.25rem;
+    width: 6.18rem;
+}
+
+.onetabarrow p{
+    position: relative;
+    font-family: GoodDogNew;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    transform: rotate(6deg);
+}
+
+.arrow{
+    position: relative;
+    z-index: 2;
+}
+
+.findtrendcontainer{
+    width: 21.18rem;
+    margin: auto;
+
+}
+
+.findtrendtab img{
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 0.875rem;
+    background-color: white;
+    transform: translateY(-15px);
+    z-index: 1;
+}
+
+.solutionarrow{
+    margin-left: 0.71vw;
+    width: 6.18rem;
+}
+.solutionarrow img{
+    position: relative;
+    transform: rotate(-90deg) scaleX(-1) translateX(-25px);
+    margin-left: 2.5rem;
+    z-index: 2;
+
+}
+.solutionarrow p{
+    position: relative;
+    font-family: GoodDogNew;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    transform: rotate(-1.13deg) translateY(-1.25rem);
+    text-align: center;
+
+}
+
+.endoflime p{
+    font-family: EffraRegular;
+    line-height: 1.31rem;
+    font-size: 0.875rem;
+    text-align: center;
+    margin: 0.57rem 2.75rem 0 2.81rem;
+    
+}
+
+.startuplist{
+    padding: 80px 0;
+    background-color: #FFFFFF;
+
+}
+
+.startuplist p{
+    font-family: EffraBold;
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 2.67rem;
+    margin: 0 1.125rem 10rem 1.125rem;
+}
+
+.startuplist span{
+    color: #ADADAD;
+}
+
+.partners p{
+    text-align: center;
+    margin: 0 1.25rem;
+}
+
+.imagegroup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.94rem;
+    grid-row-gap: 1rem;
+    width: 21.19rem;
+    margin: 2rem auto 0;
+
+}
+
+.joinus{
+    font-family: EffraBold;
+    font-weight: 900;
+    font-size: 2.25rem;
+    text-align: center;
+    line-height: 2.52rem;
+}
+
+.joinus span{
+    color: #87D322;
+}
+
+.blackbutton{
+    width: 6.62rem;
+    margin: 2rem auto 0;
+}
+
+
+#bbutton{    
+    
+    border: none;
+    border-radius: 2.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: black;
+    font-family: EffraBold;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+#bbutton:hover{
+    color: black;
+    background-color: white;
+}
+
+footer{
+    margin: 5rem 0 0;
+}
+
+.findtrendfooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10.62rem;
+    gap: 0.645rem;
+    text-align: center;
+    margin: 0 auto 5.56rem;
+
+}
+.findtrendfooter p{
+    font-family: EffraBold;
+    margin: auto 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.footerlinks a{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    width: 10.56rem;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: EffraRegular;
+    font-size: 1.12rem;
+    line-height: 1.12rem;
+    color: black;
+
+}
+
+@media screen and (min-width: 720px){
+
+    .homepage{
+        overflow: hidden;
+        height: 1080px;
+    }
+
+    
+    header{
+        margin: 2.5rem 5rem;
+    }
+
+    .headerlogo{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: EffraBold;
+        gap: 0.645rem;
+    }
+
+    .headerlogo p{
+        color: white;
+        display: inline;
+    } 
+    
+    .headerlogo img{
+        width: 40px;
+        height: 40px;
+        transform: translateY(-0.5rem);
+    }
+
+
+    .headerlinks{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 1rem;
+        position: relative;
+        text-align: center;
+        margin-left: 7rem;
+    }
+    
+    .headerlinks a{
+        text-decoration: none;
+        color: white;
+        font-family: EffraRegular;
+    }
+
+    .headerlinks a:hover{
+        color: #A5A5A5
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .registration{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .registration a{
+        text-decoration: none;
+        font-family: EffraRegular;
+    }
+
+    .loginbutton{
+        color: white;
+    }
+    .loginbutton:hover{
+        color: #A5A5A5
+    }
+
+    .registerbutton{
+        color: black;
+        padding: 0.75rem 2rem;
+        background-color: white;
+        border-radius: 2.5rem;
+        transform: translateY(-0.75rem);
+    }
+
+    .registerbutton:hover{
+        background-color: #A5A5A5;
+    }
+
+    .main-content{
+        font-size:4.5rem;
+        line-height: 5.04rem;
+    }
+
+    .smalltext{
+        font-size:1.12rem;
+        line-height: 1.69rem;
+        
+    }
+
+    .greenbutton{
+        margin: 2.5rem 0 6.93rem;
+    }
+
+    .whiteresearch{
+        display: inline-block;
+        transform: translate(8rem, 0.5rem);
+        margin-left: -7rem;
+        
+    }
+
+    .whiteresearch p{
+        color: white;
+        width: 5.81rem;
+        margin: 0 auto;
+        font-family: GoodDogNew;
+        font-size: 0.88rem;
+    }
+
+    .whiteresearch img{
+        transform: translateX(-1.5rem);
+    }
+
+
+    #gbutton{
+        font-size: 1.12rem;
+        padding: 1rem 2rem;
+    }
+
+    .tabs{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 67.25rem;
+        height: 11.14rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .imgone{
+        width: 341.23px;
+    }
+
+    .imgtwo{
+        width: 341.23px;
+        transform: translate(-9.5rem, 4rem);
+    }
+    .imgthree{
+        width: 341.23px;
+        transform: translate(-16rem,0.8rem);
+    }
+    .imgfour{
+        width: 341.23px;
+        transform: translate(-21.5rem, 3.9rem);
+    }
+    
+    .limegreen{
+        padding: 8.75rem 0;
+    }
+
+    .limebold p{
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .findtrendcontainer{
+        width: 31.38rem;
+    }
+
+    .onetabarrow{
+        position:relative;
+        transform: translate(17rem,6rem);
+        z-index: 4;
+    }
+
+    .onetabarrow p{
+        font-size: 0.875rem;
+        line-height: 0.875rem;
+        width: 5.81rem;
+        transform: rotate(6deg);
+    }
+
+    .onetabarrow img{
+        transform: scaleX(-1) rotate(240deg) translateX(-0.3rem);
+        
+    }
+    
+    .findtrendtab img {
+        width: 341.23px;
+        padding: 3.75rem 5rem;
+    }
+
+    .solutionarrow{
+        transform: translate(-8.5rem, -8rem);
+    }
+
+    .solutionarrow p{
+        transform: rotate(6deg) translateY(-1rem);
+        font-size: 0.875rem;
+        line-height: 0.875rem;
+    }
+
+    .solutionarrow img{
+        transform: rotate(-50deg) scaleX(-1) translateX(-25px);
+    }
+
+    .endoflime p{
+        font-family: EffraRegular;
+        line-height: 1.69rem;
+        font-size: 1.125rem;
+        text-align: center;
+        width: 41.63rem;
+        margin: 0 auto;
+    }
+    .startuplist{
+        padding: 8.75rem;
+    }
+    .startuplist p{
+        font-size: 4rem;
+        line-height: 4.75rem;
+    }
+    .partners{
+        width: 72.5rem;
+        margin: 0 auto;
+    }
+    .partners p{
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+    .imagegroup{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+        margin: 0;
+    }
+    .imagegroup img{
+        width: 16.63rem;
+
+    }
+    .joinus{
+        width: 46.25rem;
+        margin: 0 auto;
+    }
+    .joinus p{
+        font-size: 4.5rem;
+        line-height: 5.04rem;
+    }
+    .blackbutton{
+        width: 11.25rem;
+        margin: 2.5rem auto 0;
+    }
+    #bbutton{
+
+        padding: 1rem 3.28rem;
+        background-color: black;
+        font-family: EffraBold;
+        font-size: 1.125rem;
+        line-height: 1.58rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    footer{
+        all: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 6.5rem 2rem 4rem;
+    }
+
+    .findtrendfooter{
+        margin: 0;
+        width: auto;
+    }
+
+    .footerlinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        
+    }
+    .footerlinks a{
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+
+    .footerlinks a:hover{
+        color: gray;
+    }
+
+}
